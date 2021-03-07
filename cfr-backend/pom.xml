@@ -12,8 +12,9 @@
     <groupId>vn.thuephonghoc</groupId>
     <artifactId>cfr-backend</artifactId>
     <version>1.0</version>
+    
     <name>cfr-backend</name>
-    <packaging>jar</packaging>
+    <packaging>war</packaging>
     <description>cfr-backend</description>
 
     <properties>
