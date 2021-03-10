@@ -5,8 +5,8 @@ spring:
       
       driverClassName: net.sf.log4jdbc.sql.jdbcapi.DriverSpy
       url: jdbc:log4jdbc:mariadb://thuephonghoc.vn:3306/rentroom
-      username: root
-      password: 123456
+      username: tpschool
+      password: g43a54pi
 
       # Initial configuration
       initial-size: 3
