@@ -6,7 +6,7 @@ spring:
     settings:
       classic_compatible: true
   profiles:
-    active: dev
+    active: prod
   jackson:
     time-zone: GMT+7
   data:
