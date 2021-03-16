@@ -67,7 +67,7 @@ export default {
     }
   },
   created() {
-    fetch('http://thuephonghoc.vn:8080/rentroom/api/contact')
+    fetch('http://localhost:8080/rentroom/api/contact')
           .then(Response => {
             return Response.json()
           })
@@ -78,7 +78,7 @@ export default {
   },
   methods: {
  postData(e){
-      axios.post("http://thuephonghoc.vn:8080/rentroom/api/contactclient",this.posts)
+      axios.post("http://localhost:8080/rentroom/api/contactclient",this.posts)
       .then((result)=> {
       
         alert("Ban da gửi thành công!!!")

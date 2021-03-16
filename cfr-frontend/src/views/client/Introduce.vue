@@ -18,7 +18,7 @@ export default {
     }
   },
   created() {
-    fetch('http://thuephonghoc.vn:8080/rentroom/api/introduce')
+    fetch('http://localhost:8080/rentroom/api/introduce')
       .then(Response => {
         return Response.json()
       })
