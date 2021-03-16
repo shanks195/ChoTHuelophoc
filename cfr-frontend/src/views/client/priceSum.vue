@@ -59,7 +59,7 @@ export default {
     }
   },
   created() {
-    fetch('http://thuephonghoc.vn:8080/rentroom/api/price')
+    fetch('http://112.169.209.92:8080/rentroom/api/price')
       .then(Response => {
         return Response.json()
       })

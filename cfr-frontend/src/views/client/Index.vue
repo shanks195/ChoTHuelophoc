@@ -24,7 +24,7 @@ export default {
     }
   },
   created() {
-    fetch('http://localhost:8080/rentroom/api/home')
+    fetch('http://112.169.209.92:8080/rentroom/api/home')
       .then(Response => {
         return Response.json()
       })
