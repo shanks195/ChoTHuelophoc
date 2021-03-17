@@ -4,9 +4,9 @@ spring:
     druid:
       
       driverClassName: net.sf.log4jdbc.sql.jdbcapi.DriverSpy
-      url: jdbc:log4jdbc:mariadb://localhost:3306/rentroom
-      username: root
-      password: 123456
+      url: jdbc:log4jdbc:mysql://localhost:3306/rentroom
+      username: tpschool
+      password: g43a54pi
 
       # Initial configuration
       initial-size: 3

@@ -4,7 +4,7 @@ spring:
     druid:
       
       driverClassName: net.sf.log4jdbc.sql.jdbcapi.DriverSpy
-      url: jdbc:log4jdbc:mysql://127.0.0.1:3306/rentroom
+      url: jdbc:log4jdbc:mysql://127.0.0.1:3306/rentroom?serverTimezone=Asia/Seoul
       username: tpschool
       password: g43a54pi
 
