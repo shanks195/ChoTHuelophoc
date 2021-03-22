@@ -47,7 +47,7 @@ export default {
    // Gửi request lên server khi mà postPost() được gọi
   
   created() {
-    fetch('http://112.169.209.92:8080/rentroom/api/contact')
+    fetch('http://thuephonghoc.vn/rentroom/api/contact')
       .then(Response => {
         return Response.json()
       })
@@ -58,7 +58,7 @@ export default {
   },
   methods: {
     postData(e){
-      axios.post("http://112.169.209.92:8080/rentroom/api/contactclient",this.posts)
+      axios.post("thuephonghoc.vn/rentroom/api/contactclient",this.posts)
       .then(()=> {
       
         alert("Ban da dat lich thanh cong!!!")
