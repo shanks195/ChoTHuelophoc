@@ -54,7 +54,7 @@
     <div v-if="$store.state.settings.showFooter" id="el-login-footer">
       <span v-html="$store.state.settings.footerTxt">
         <span>.</span>
-        <a href="https://thuephonghoc.vn" target="_blank">{{ $store.state.settings.caseNumber }}</a>
+        <a href="http://thuephonghoc.vn" target="_blank">{{ $store.state.settings.caseNumber }}</a>
       </span>
     </div>
   </div>
